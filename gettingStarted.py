@@ -25,9 +25,9 @@ def welcome_assignment_answers(question):
     elif question == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
         answer = "466f5a951421f8e5b0ee60a55aad1b2a"
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = "3"
+        answer = "an integer number"
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-        answer = "2"
+        answer = "an integer number"
     else:
         answer = "This is not my beautiful wife! This is not my beautiful car! How did I get here?"
     return(answer)
