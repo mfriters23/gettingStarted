@@ -29,7 +29,7 @@ def welcome_assignment_answers(question):
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         answer = 3
     else:
-        answer = "The input question does not match the question bank"
+        answer = print("The input question does not match the question bank")
     return(answer)
 
 if __name__ == "__main__":
