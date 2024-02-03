@@ -23,13 +23,13 @@ def welcome_assignment_answers(question):
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
-        answer = "466f5a951421f8e5b0ee60a55aad1b2a"
+        answer = "8fd5d4afaab94e3ed8883dda21981f3cc3d0b6aab00ee3f39e0bb95e167b7bac"
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = "integer number"
+        answer = "7"
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-        answer = "integer number"
+        answer = "4"
     else:
-        answer = "This is not my beautiful wife! This is not my beautiful car! How did I get here?"
+        answer = "put something here to flag an issue and catch errors"
     return(answer)
 
 if __name__ == "__main__":
